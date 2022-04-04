@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.carousel{
+    width: 400px;
+}
+
+img#bigPic{
+    width: 100%;
+}
+
+div.thumbs{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.thumbs img{
+    display: block;
+    width: 20%;
+}

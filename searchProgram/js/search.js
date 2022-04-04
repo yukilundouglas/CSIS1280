@@ -1,7 +1,7 @@
 function search(){
 
     var searchItem = document.getElementById("txtlookfor").value;
-    var site = 'wikipedia.org';
+    var site = 'douglascollege.ca';
     
     if(searchItem!=""){
         var engine = document.getElementById("dropdown").value;
