@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/carousel.js"></script>
 </head>
-<body>
-    <div class="carousel">
-        <img src="img/birds01.png" alt="" id="bigPic">
-        <div class="thumbs">
-            <img src="img/birds01.png" alt="" onclick="showBig(this.src)">
-            <img src="img/birds02.png" alt="" onclick="showBig(this.src)"> 
-            <img src="img/birds03.png" alt="" onclick="showBig(this.src)"> 
-            <img src="img/birds04.png" alt="" onclick="showBig(this.src)"> 
-            <img src="img/birds05.png" alt="" onclick="showBig(this.src)"> 
-        </div>
-    </div>
-</body>
+<body> 
+    <!-- HTML to display the pictures --> 
+    <div class="carousel"> 
+      <img src="img/birds01.png" alt="" id="bigpic" /> 
+      <div class="thumbs"> 
+        <img src="img/LeftArrow.png" alt="Previous" onclick="calcslide(-1)" >
+        <img src="img/birds01.png" alt="" onclick="showbig(this.src)" /> 
+        <img src="img/birds02.png" alt="" onclick="showbig(this.src)" /> 
+        <img src="img/birds03.png" alt="" onclick="showbig(this.src)" /> 
+        <img src="img/birds04.png" alt="" onclick="showbig(this.src)" /> 
+        <img src="img/birds05.png" alt="" onclick="showbig(this.src)" /> 
+        <img src="img/RightArrow.png" alt="Next" onclick="calcslide(1)"> 
+      </div> 
+      <!-- End thumbs --> 
+    </div> 
+    <!-- End carousel --> 
+  </body> 
 </html>
